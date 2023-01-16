@@ -9,7 +9,7 @@ import {useState} from 'react'
 export const Navbar = () => {
   const[activeNav, setActiveNav] = useState('#')
   return (
-    <nav class = "sticky">
+    <nav className = "sticky">
       <a href="#" onClick={() => setActiveNav('#')} className={activeNav === '#' ? 'active' : ''}><AiFillHome/></a>
       {/* default state */}
       <a href="#about" onClick={() => setActiveNav('#about')}  className={activeNav === '#about' ? 'active' : ''}><BsFillPersonFill/></a>

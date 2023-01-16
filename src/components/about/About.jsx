@@ -1,13 +1,12 @@
 import React from 'react'
 import './about.css'
 import CTA from './CTA'
-import COMPANY from '../../assets/temp.png'
 
 
 export const About = () => {
   return (
-    <div className='about' id = 'home'>
-      <div className = "container about__container">
+    <div className='home' id = 'home'>
+      <div className = "container home__container">
         <h1>Howden Metals</h1>
         <h5 className="text-light">Scarborough, ON</h5>
         

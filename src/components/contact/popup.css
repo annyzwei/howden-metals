@@ -1,0 +1,32 @@
+.popup{
+    position: fixed;
+    bottom: 2%;
+    right: 2%;
+    z-index: 3;
+    border-radius: 10%;
+    width: max-content;
+    padding: 1em;
+    height: max-content;
+    background-color: rgba(220, 215, 186, 1);
+    justify-content: center;
+    align-items: center;
+}
+
+.popup h3{
+    font-size: 14px;
+    color: var(--color-bg-variant);
+}
+
+.popup-inner{
+    position: relative;
+    padding: 32px;
+    width: 100%;
+    max-width: 640px;
+    background-color: #fff;
+}
+
+.popup-inner .close-btn{
+    position: absolute;
+    top: 16px;
+    right: 16px;
+}
